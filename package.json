@@ -1,0 +1,18 @@
+{
+  "name": "dx-configs",
+  "private": true,
+  "engines": {
+    "node": ">=v14.15.5",
+    "npm": ">=8.5.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "updated": "lerna updated",
+    "release": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^5.0.0"
+  }
+}

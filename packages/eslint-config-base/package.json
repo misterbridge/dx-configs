@@ -1,0 +1,33 @@
+{
+    "name": "@misterbridge/eslint-config-base",
+    "version": "0.0.0",
+    "description": "This package provides mrbridge's eslint config file for TypeScript projects without react",
+    "author": "Sylvain Pont <sylvain@pont.me>",
+    "homepage": "https://github.com/misterbridge/dx-configs/eslint-config-base",
+    "license": "ISC",
+    "main": "eslint-config-base.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/misterbridge/dx-configs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/misterbridge/dx-configs/issues"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.23.0",
+        "@typescript-eslint/parser": "^5.23.0",
+        "eslint": "^8.15.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.23.0",
+        "@typescript-eslint/parser": "^5.23.0",
+        "eslint": "^8.15.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0"
+    }
+}

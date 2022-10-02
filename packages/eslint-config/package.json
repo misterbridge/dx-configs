@@ -1,0 +1,39 @@
+{
+    "name": "@misterbridge/eslint-config",
+    "version": "0.0.0",
+    "description": "This package provides mrbridge's eslint config file for TypeScript projects with react",
+    "author": "Sylvain Pont <sylvain@pont.me>",
+    "homepage": "https://github.com/misterbridge/dx-configs/eslint-config",
+    "license": "ISC",
+    "main": "eslint-config.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/misterbridge/dx-configs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/misterbridge/dx-configs/issues"
+    },
+    "peerDependencies": {
+        "@misterbridge/eslint-config-base": "*",
+        "@typescript-eslint/eslint-plugin": "^5.23.0",
+        "@typescript-eslint/parser": "^5.23.0",
+        "eslint": "^8.15.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-react-hooks": "^4.5.0"
+    },
+    "devDependencies": {
+        "@misterbridge/eslint-config-base": "../eslint-config-base",
+        "@typescript-eslint/eslint-plugin": "^5.23.0",
+        "@typescript-eslint/parser": "^5.23.0",
+        "eslint": "^8.15.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-react-hooks": "^4.5.0"
+    }
+}

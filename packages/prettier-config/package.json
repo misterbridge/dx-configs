@@ -1,0 +1,24 @@
+{
+    "name": "@misterbridge/prettier-config",
+    "version": "0.0.0",
+    "description": "This package provides mrbridge's prettier config file for TypesScript projects",
+    "author": "Sylvain Pont <sylvain@pont.me>",
+    "homepage": "https://github.com/misterbridge/dx-configs/prettier-config",
+    "license": "ISC",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/misterbridge/dx-configs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/misterbridge/dx-configs/issues"
+    },
+    "peerDependencies": {
+        "prettier": "^2.6.2"
+    },
+    "devDependencies": {
+        "prettier": "^2.6.2"
+    }
+}
