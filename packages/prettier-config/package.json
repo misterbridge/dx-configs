@@ -1,6 +1,6 @@
 {
     "name": "@misterbridge/prettier-config",
-    "version": "0.0.0",
+    "version": "0.0.1-alpha.0",
     "description": "This package provides mrbridge's prettier config file for TypesScript projects",
     "author": "Sylvain Pont <sylvain@pont.me>",
     "homepage": "https://github.com/misterbridge/dx-configs/prettier-config",

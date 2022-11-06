@@ -1,24 +1,24 @@
 {
-    "name": "@misterbridge/ts-config",
-    "version": "0.0.0",
-    "description": "This package provides mrbridge's typescript config file projects",
-    "author": "Sylvain Pont <sylvain@pont.me>",
-    "homepage": "https://github.com/misterbridge/dx-configs/ts-config",
-    "license": "ISC",
-    "publishConfig": {
-        "access": "public"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/misterbridge/dx-configs.git"
-    },
-    "bugs": {
-        "url": "https://github.com/misterbridge/dx-configs/issues"
-    },
-    "peerDependencies": {
-        "typescript": "^4.6.4"
-    },
-    "devDependencies": {
-        "typescript": "^4.6.4"
-    }
+  "name": "@misterbridge/ts-config",
+  "version": "0.0.1-alpha.0",
+  "description": "This package provides mrbridge's typescript config file projects",
+  "author": "Sylvain Pont <sylvain@pont.me>",
+  "homepage": "https://github.com/misterbridge/dx-configs/ts-config",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/misterbridge/dx-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/misterbridge/dx-configs/issues"
+  },
+  "peerDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
